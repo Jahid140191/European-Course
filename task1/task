@@ -1,0 +1,27 @@
+Task related to Array: (45 Marks)
+
+    Write programs for concat(),  every(), some(), fill(), filter(), find(), findIndex(), forEach(), from(), includes(), isArray(), join(), map(), pop(), push(), reverse(), shift(), slice(),  sort(), splice() and unshift() methods. 
+    Write a program for concatenation two array (using spread operator).
+
+
+
+Task related to Object: (20 Marks)
+
+    Write programs for entries(), hasOwn(), keys(), values() methods.
+    Write a program for merging two object (using spread operator).
+
+
+
+Task related to Loop: (15 Marks)
+
+    Write a program using simple for loop.
+    Write a program using for-of loop.
+    Write a program using for-in loop.
+
+
+
+Task related to Github: (20 Marks)
+
+    Install Git software in your PC/Laptop.
+    Create a Github account.
+    Upload your above tasks into a repository and submit the repository link.
