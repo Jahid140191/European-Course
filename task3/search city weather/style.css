@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+body{
+    background: #aeaeae;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-column{
+    margin-top: 80px;
+    margin-bottom: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 1px 13px 2px #3e3838;
+}
+.main-column .left-column{
+    width: 65%;
+}
+.main-column .left-column img{
+    width: 67%;
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+}
+.main-column .left-column .text-sec{
+    opacity: 0.9;
+    color: white;
+    margin-top: 156px;
+    margin-left: 280px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.left-column .text-sec hr{
+    color: white;
+    width: 56%;
+    margin-left: -8px;
+    margin-top: -4px;
+}
+.left-column .text-sec input{
+    width: 40%;
+    position: absolute;
+    left: 114px;
+    top: 240px;
+    height: 35px;
+    background: #00000054;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: revert;
+    padding-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.left-column .text-sec input:focus{
+ outline: none;
+}
+.left-column .text-sec button{
+    height: 39px;
+    width: 73px;
+    position: absolute;
+    top: 240px;
+    left: 565px;
+    background: #00f3ff;
+    border: none;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+.left-column .text-sec button:active{
+    background: #00f3ffdb;
+    
+}
+
+
+
+
+.main-column .right-column{
+    background: white;
+    width: 35%;
+    height: 470px;
+    border-radius: 0px 10px 10px 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main-column .right-column h2{
+    margin-left: 110px;
+    font-size: 28px;
+    margin-top: 10px;
+    
+}
+.main-column .right-column hr{
+    
+    width: 51%;
+    margin-left: 100px;
+}
+.main-column .right-column .output{
+    margin-left: 37px;
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-column .right-column .output p{
+    margin-top: 15px;
+}
