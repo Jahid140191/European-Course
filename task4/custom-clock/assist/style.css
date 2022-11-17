@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+body{
+    text-align: center;
+}
+h2{
+    font-size: 82px;
+    text-decoration: underline;
+    margin-top: 200px;
+}
+.clock-container{
+    display: flex;
+    border: 8px solid black;
+    width: 223px;
+    margin: auto;
+    height: 55px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: #800;
+    color: white;
+}
+.clock-container p{
+    
+    margin-left: ;
+}
+
+/* Responsive css */
+@media screen and (max-width:330px){
+    h2{
+        font-size: 40px;
+    }
+    .clock-container{
+        width: 160px;
+        font-size: 25px;
+    }
+}
